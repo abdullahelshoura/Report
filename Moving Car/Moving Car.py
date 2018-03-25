@@ -31,45 +31,55 @@ def draw():
 
     glColor3f(0, 0, 0)
     glLoadIdentity()
-    glTranslate(-6, 0, -1 * 34)
+    glTranslate(-(0.25)*x-6, 0, -1 * 34)
     glScale(0.2, 10, -0.5)
     glutSolidCube(4.5)
 
     glColor3f(0, 0, 0)
     glLoadIdentity()
-    glTranslate(-26, 0, -1 * 22)
+    glTranslate(-(0.25)*x-26, 0, -1 * 22)
     glScale(0.2, 10, -0.5)
     glutSolidCube(4.5)
 
     glColor3f(0, 0, 0)
     glLoadIdentity()
-    glTranslate(0, 0, -1 * 6)
+    glTranslate(-x, 0, -1 * 6)
     glScale(100, 0.25, -0.5)
     glutWireCube(4.5)
 
     glLoadIdentity()
-    glTranslate(0, 0,( -1 * 5)-0.1)
+    glTranslate(-x, 0,( -1 * 5)-0.1)
     glScale(100, 0.25, 0.002)
     glutSolidCube(4.5)
 
     glColor3f(0, 0, 0)
     glLoadIdentity()
-    glTranslate(0, 0, 0.1)
+    glTranslate(-x, 0, 0.1)
     glScale(1.5, 0, -0.25)
     glutSolidCube(4.5)
 
     glLoadIdentity()
-    glTranslate(-10, 0, 0.1)
+    glTranslate(-x-10, 0, 0.1)
     glScale(1.5, 0, -0.25)
     glutSolidCube(4.5)
 
     glLoadIdentity()
-    glTranslate(10, 0, 0.1)
+    glTranslate(-x+10, 0, 0.1)
     glScale(1.5, 0, -0.25)
     glutSolidCube(4.5)
 
     glLoadIdentity()
-    glTranslate(-20, 0, 0.1)
+    glTranslate(-x-20, 0, 0.1)
+    glScale(1.5, 0, -0.25)
+    glutSolidCube(4.5)
+
+    glLoadIdentity()
+    glTranslate(-x - 30, 0, 0.1)
+    glScale(1.5, 0, -0.25)
+    glutSolidCube(4.5)
+
+    glLoadIdentity()
+    glTranslate(-x - 40, 0, 0.1)
     glScale(1.5, 0, -0.25)
     glutSolidCube(4.5)
 
@@ -156,13 +166,13 @@ def draw():
 
     glColor3f(0, 0, 0)
     glLoadIdentity()
-    glTranslate(0, 0, -1 * 6)
+    glTranslate(-x, 0, -1 * 6)
     glScale(0.2, 10, -0.5)
     glutSolidCube(4.5)
 
     glColor3f(0, 0, 0)
     glLoadIdentity()
-    glTranslate(-29, 0, -1 * 6)
+    glTranslate(-x-29, 0, -1 * 6)
     glScale(0.2, 10, -0.5)
     glutSolidCube(4.5)
 
